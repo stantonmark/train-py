@@ -1,0 +1,20 @@
+1 object orientated programming, cpython, 
+from script and from getting into teh python interreter python3 
+you should name them short but descriptivly 
+it contain various data types such as in, float, string 
+12 is assiged to x
+strings integers floats tuples 
+first define it then call it 
+# Name two falsey values (values that convert to False when passwed to a bool() wrapper fucntion)
+empty containers: list, tuple, set dict 
+"" -- empty string  
+0 is also false 
+none is also false 
+
+
+# what value does the number one becme when passwed to float 
+1.0
+
+# what value to string hello become when passed to boolean 
+True 
+
