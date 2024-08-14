@@ -1,0 +1,84 @@
+
+my_list = [1,2,3]
+my_other_list = [1,2,3]
+
+# is = an identify operator 
+# == comparison operator (is it the same content 
+# __eq__ method in teh spec for the list is overridden to say:
+# If the members are the same in teh same order then return true 
+# Since the start of the course we have been runnign __str__ method of objects 
+# It returns a string 
+
+# __eq__ represent 
+# __str__ tells us how to represent a string of that type 
+# print() call __str__
+# == callls __eq__ under teh hood 
+
+
+print(my_list)
+print(my_list.__str__())     # This is a magic method but you would not do that 
+print(my_list is my_other_list)
+
+
+print(1 in my_list)
+
+print(my_list == my_other_list)
+
+# Logical operators evaluate to either true or false 
+print( 0 and 1) # 0 and 1 will give 0 
+print(bool(0) and bool(1))  # false as we need to two trues to make ture 
+print(bool(1) and bool(1))
+print( not (bool(0) or bool(1)))
+print( not (bool(0) or not bool(1))) # will be true as both not 
+
+list1 = [1,2,3]
+list2 = [4,5,6]
+list3 = [7,8,9]
+
+print(list1 or list2 == list3)  # this will return teh true part of the statement 
+print(list1 and list2 == list3)
+
+# operator precedence 
+print(10 + 10 *2)
+print(10 + (10 *2))
+print((10 + 10) *2)
+print(3 / 2 * 10)
+
+7%3
+7**3
+7//3
+7+3.5
+print("This int 7+3.5")
+print(int(7+3.5))
+["ho"] * 3
+print("ho" * 3)
+print("the meaning of life is "+ "42")
+
+#Unary
+not False 
+not 2 
+not ""
+not[1]
+
+#comparison
+"a" > "b" # ASCII values being compared a=97 and b=98
+print([1,2,3] < [1,1,4]) # false
+print({"a","b","c"} == {"c","a","c"})  # True as its  a set and we dont care about order in a set
+print(3 == 3)  # True 
+print(3 is 3) # True 
+id(3)
+first_3=3
+second_3=3
+print(id(first_3))
+print(id(second_3))
+print(first_3 is second_3)  
+print("john" in {"name": "john"})
+print([] == []) # True 
+print("o" in "bobble") # True 
+print(bool([] or bool("hello")))  # True as empty is false but any string in the list makes it true 
+
+
+
+
+
+

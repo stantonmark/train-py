@@ -1,0 +1,60 @@
+
+# single branch if statement 
+if True:
+    print("True path execute IF Executed")
+    
+if False:
+    print("False path execute")
+    
+if True:
+    print("True path execute IF ELSE  Executed")
+
+    
+# ONE if else statemnet chained together 
+else:
+    print("Else path in IF ELSE execute")
+    
+    
+# back to left margin 
+
+a = 3 
+b = 3
+c = 3 
+d = 3 
+
+
+# unhelathy 
+hr = 150
+bp = {"diastolic": 160, "systolic": 90}
+
+# boarderline 
+hr = 120
+bp = {"diastolic": 150, "systolic": 80}
+
+#Healthy 
+hr = 105
+bp = {"diastolic": 110, "systolic": 75}
+
+
+if hr > 140 and ( bp["diastolic"] > 150 and bp["systolic"] > 80):
+    print("you are very unhealthy")
+elif hr > 110 and ( bp["diastolic"] > 120 and bp["systolic"] > 70):
+    print("you are unhealthy - go to A&E")
+else:
+    print("you are healthy")
+    
+    
+# The if else can be written on one line 
+temp = "cold"
+temp = "hot"
+clothing = "jumper" if temp == "cold" else "t-shirt"
+print(clothing)
+print(f"it is {temp} so i should wear a {clothing}")
+
+
+
+
+
+
+
+          
